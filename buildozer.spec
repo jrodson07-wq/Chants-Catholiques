@@ -20,7 +20,7 @@ version = 1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow
+requirements = python3,kivy,kivymd
 
 # (str) Supported orientations (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -44,7 +44,7 @@ android.ndk = 25b
 android.accept_sdk_license = True
 
 # (str) The Android arch to build for
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 
 [buildozer]
 
