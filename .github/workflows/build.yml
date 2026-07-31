@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ccache libltdl-dev openjdk-17-jdk
+          sudo apt-get install -y ccache libltdl-dev openjdk-17-jdk ffmpeg libsdl2-dev libsdl2-image-dev libsdl2-mixin-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev zlib1g-dev libwebp-dev
           pip install --upgrade pip
           pip install "cython<3" buildozer python-for-android
 
